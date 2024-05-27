@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: Arial;
+}
+
+.a {
+    background-image: url("../public/images/mypic.png");
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    background-size: cover;
+    transition: transform 2s, box-shadow 2s;
+}
+
+.a:hover {
+    transform: scale3d(1.5, 1.5, 2);
+    box-shadow: 10px 10px 2px black;
+}
