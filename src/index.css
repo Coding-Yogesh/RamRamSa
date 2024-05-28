@@ -7,6 +7,10 @@ body {
     font-family: Arial;
 }
 
+h1 {
+    text-shadow: 2px 1px 1px black;
+}
+
 .a {
     background-image: url("../public/images/mypic.png");
     height: 300px;
